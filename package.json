@@ -1,12 +1,7 @@
 {
-    "dependencies": {
-        "cors": "^2.8.6",
-        "express": "^5.2.1",
-        "socket.io": "^4.8.3"
-    },
-    "name": "project",
+    "name": "restaurant-queue-backend",
     "version": "1.0.0",
-    "description": "",
+    "description": "Backend for Restaurant Queue System",
     "main": "server.js",
     "scripts": {
         "start": "node server.js"
@@ -14,6 +9,9 @@
     "keywords": [],
     "author": "",
     "license": "ISC",
-    "type": "commonjs"
-
+    "dependencies": {
+        "cors": "^2.8.5",
+        "express": "^4.19.2",
+        "socket.io": "^4.7.5"
+    }
 }
