@@ -8,14 +8,14 @@ const app = express();
 app.use(cors());
 app.use(express.json()); // Parse JSON payloads
 
-const server = http.createServer(app);
-const socket = io('https://qqq-maq4.onrender.com');
-const fetchUrl = 'https://my-restaurant-api.onrender.com/api/orders';
-// // Initialize Socket.io with CORS enabled
-const allowedOrigins = [
-    'https://my-client-app.vercel.app',
-    'https://my-merchant-dashboard.vercel.app'
-];
+// const server = http.createServer(app);
+// const socket = io('https://qqq-maq4.onrender.com');
+// const fetchUrl = 'https://my-restaurant-api.onrender.com/api/orders';
+// // // Initialize Socket.io with CORS enabled
+// const allowedOrigins = [
+//     'https://my-client-app.vercel.app',
+//     'https://my-merchant-dashboard.vercel.app'
+// ];
 
 app.use(cors({ origin: allowedOrigins }));
 
